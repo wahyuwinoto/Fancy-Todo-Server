@@ -35,8 +35,7 @@
   "scripts": {
     "dev": "NODE_ENV=development nodemon app.js",
     "start": "node app.js",
-    "build": "webpack",
-    "heroku-postbuild": "ng build --prod"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
