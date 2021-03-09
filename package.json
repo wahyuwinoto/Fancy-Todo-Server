@@ -1,0 +1,49 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "google-auth-library": "^7.0.2",
+    "heroku-cli": "^7.0.9",
+    "http-auth": "^4.1.2",
+    "isvte-sfdx-plugin": "^1.1.9",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.5.0",
+    "pg": "^8.5.1",
+    "sequelize": "^6.5.0",
+    "sequelize-cli": "^6.2.0",
+    "sfdx-essentials": "^2.6.0"
+  },
+  "name": "fancy-todo",
+  "description": "membuat sebuah website for managing fancy things todo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahyuwinoto/fancy-todo.git"
+  },
+  "keywords": [
+    "todo",
+    "fancy",
+    "app"
+  ],
+  "author": "wahyu winoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahyuwinoto/fancy-todo/issues"
+  },
+  "homepage": "https://github.com/wahyuwinoto/fancy-todo#readme",
+  "devDependencies": {
+    "heroku": "^7.50.0",
+    "nodemon": "^2.0.7"
+  }
+}
